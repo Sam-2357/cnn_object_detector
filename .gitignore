@@ -1,0 +1,16 @@
+
+# ----- Python env & caches -----
+.venv/
+__pycache__/
+*.py[cod]
+
+# ----- Large artefacts -----
+data/
+models/
+logs/
+*.pt
+*.pth
+
+# ----- Jupyter checkpoints -----
+.ipynb_checkpoints/
+EOF
