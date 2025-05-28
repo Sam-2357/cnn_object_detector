@@ -1,8 +1,13 @@
 [tool.black]
 line-length = 88
 
-[tool.ruff]
-select = ["E", "F", "W", "C90"]
+[tool.ruff]                        # Top-level Ruff settings
+line-length = 88                   # (optional) match Black
+
+[tool.ruff.lint]                   # ← NEW section name
+select = ["E", "F", "W", "C90"]    # the rules you already chose
+# ignore  = ["E501"]               # example: turn off a rule
+# fix     = true                   # make `ruff check --fix` default
 
 [tool.pytest.ini_options]
 addopts = "-v"
