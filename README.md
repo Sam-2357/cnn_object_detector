@@ -11,7 +11,7 @@
 - Serve as a stepping-stone toward modern detectors (YOLO, Faster R-CNN, etc.).
 
 ## 📁 Project Layout (TL;DR)
-```text
+
 src/cnn_object_detector/   # package with data, models, engine, utils
 notebooks/                 # interactive exploration & tutorials
 tests/                     # pytest unit tests
