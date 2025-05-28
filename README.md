@@ -11,13 +11,14 @@
 - Serve as a stepping-stone toward modern detectors (YOLO, Faster R-CNN, etc.).
 
 ## 📁 Project Layout (TL;DR)
-
+```text
 src/cnn_object_detector/   # package with data, models, engine, utils
 notebooks/                 # interactive exploration & tutorials
 tests/                     # pytest unit tests
 configs/                   # YAML config files (hyper-params)
 models/                    # trained checkpoints + logs
 data/                      # local copies of datasets
+```
 
 ## 🚀 Quick start
 
@@ -41,3 +42,4 @@ pytest -q
 python -m cnn_object_detector.engine.train \
   --config configs/train_config.yaml
 # Results (loss curves, metrics) will appear in models/logs/.
+```
